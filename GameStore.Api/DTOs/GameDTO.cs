@@ -3,7 +3,7 @@
 
 namespace GameStore.Api.DTOs
 {
-  public record Game(
+  public record GameDTO(
     int Id ,
     string Name,
     string Genre,
