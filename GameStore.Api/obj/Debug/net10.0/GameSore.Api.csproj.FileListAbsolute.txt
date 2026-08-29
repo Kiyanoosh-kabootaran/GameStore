@@ -26,3 +26,4 @@ C:\Users\asus\Desktop\GameStore\GameStore.Api\obj\Debug\net10.0\refint\GameSore.
 C:\Users\asus\Desktop\GameStore\GameStore.Api\obj\Debug\net10.0\GameSore.Api.pdb
 C:\Users\asus\Desktop\GameStore\GameStore.Api\obj\Debug\net10.0\GameSore.Api.genruntimeconfig.cache
 C:\Users\asus\Desktop\GameStore\GameStore.Api\obj\Debug\net10.0\ref\GameSore.Api.dll
+C:\Users\asus\Desktop\GameStore\GameStore.Api\obj\Debug\net10.0\GameSore.Api.sourcelink.json
