@@ -47,6 +47,12 @@ public static class GamesEndpoints
     // POST /games
     group.MapPost("/", (CreateGameDto newGame) =>
     {
+        /* validation input
+        if (string.IsNullOrEmpty(newGame.Name))
+        {
+            return Results.BadRequest("Name is Required");
+        } */ 
+        
         GameDTO game = new(
             games.Count + 1,
             newGame.Name,
