@@ -8,9 +8,9 @@ POST http://localhost:5048/games
 Content-Type: application/json
 
 {
-  "name" : "Super Mario. Bros. Wonder  Super Mario. Bros. Wonder  Super Mario. Bros. Wonder  Super Mario. Bros. Wonder",
+  "name" : "Super Mario. Bros. Wonder",
   "genre": "Platformer",
-  "price": -59.99,
+  "price": 59.99,
   "releaseDate": "2023-10-20"
 }
 
@@ -20,7 +20,7 @@ Content-Type: application/json
 
 {
   "name": "Street Fighter || Turbo",
-  "genre": "",
+  "genre": "Fighting",
   "price": 9.99,
   "releaseDate": "1997-07-15"
 }

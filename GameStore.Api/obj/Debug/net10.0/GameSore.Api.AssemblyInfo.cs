@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GameSore.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+485b19d02912c18998cde723469eaa67b19aaaab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f523550f254c9c68a50260d0d477dcb68b2eb4a")]
 [assembly: System.Reflection.AssemblyProductAttribute("GameSore.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GameSore.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
