@@ -1,8 +1,34 @@
 {
   "version": 2,
-  "dgSpecHash": "aIYJZFgzRC4=",
+  "dgSpecHash": "GK1IdtBcBZE=",
   "success": true,
   "projectFilePath": "C:\\Users\\asus\\Desktop\\GameStore\\GameStore.Api\\GameSore.Api.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.data.sqlite.core\\10.0.1\\microsoft.data.sqlite.core.10.0.1.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.1\\microsoft.entityframeworkcore.10.0.1.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.1\\microsoft.entityframeworkcore.abstractions.10.0.1.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.1\\microsoft.entityframeworkcore.analyzers.10.0.1.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\10.0.1\\microsoft.entityframeworkcore.relational.10.0.1.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\10.0.1\\microsoft.entityframeworkcore.sqlite.10.0.1.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\10.0.1\\microsoft.entityframeworkcore.sqlite.core.10.0.1.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\microsoft.extensions.dependencymodel\\10.0.1\\microsoft.extensions.dependencymodel.10.0.1.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.11\\sqlitepclraw.bundle_e_sqlite3.2.1.11.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\sqlitepclraw.core\\2.1.11\\sqlitepclraw.core.2.1.11.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.11\\sqlitepclraw.lib.e_sqlite3.2.1.11.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.11\\sqlitepclraw.provider.e_sqlite3.2.1.11.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'SQLitePCLRaw.lib.e_sqlite3' 2.1.11 has a known high severity vulnerability, https://github.com/advisories/GHSA-2m69-gcr7-jv3q",
+      "projectPath": "C:\\Users\\asus\\Desktop\\GameStore\\GameStore.Api\\GameSore.Api.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\asus\\Desktop\\GameStore\\GameStore.Api\\GameSore.Api.csproj",
+      "libraryId": "SQLitePCLRaw.lib.e_sqlite3",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }
