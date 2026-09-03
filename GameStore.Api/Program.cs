@@ -1,3 +1,4 @@
+using GameStore.Api.Data;
 using GameStore.Api.DTOs;
 using GameStore.Api.Endpoints;
 using Microsoft.AspNetCore.Mvc;
@@ -6,9 +7,10 @@ using Microsoft.AspNetCore.Mvc;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddValidation();
 
+var connString = "Data Source = GameStore.db";
+builder.Services.AddSqlite<GameStoreContext>(connString);
+
 var app = builder.Build();
-
-
 
 app.MapGamesEndpoints();
 
